@@ -1,0 +1,1 @@
+# Climate platform entity logic

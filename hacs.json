@@ -1,0 +1,8 @@
+{
+  "name": "Mysa Thermostat",
+  "content_in_root": false,
+  "domains": ["mysa"],
+  "country": "US",
+  "homeassistant": "2023.5.0",
+  "render_readme": true
+}

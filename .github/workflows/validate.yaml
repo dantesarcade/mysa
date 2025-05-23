@@ -1,0 +1,17 @@
+name: HACS Validate
+on:
+  push:
+    paths:
+      - 'custom_components/**'
+  pull_request:
+
+jobs:
+  hacs:
+    name: HACS validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: HACS validation
+        uses: hacs/action@main

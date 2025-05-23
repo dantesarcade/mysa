@@ -1,0 +1,13 @@
+{
+  "domain": "mysa",
+  "name": "Mysa Thermostat",
+  "version": "0.1.0",
+  "documentation": "https://github.com/dantesarcade/mysa",
+  "dependencies": [],
+  "codeowners": ["@dantesarcade"],
+  "requirements": [
+    "aiohttp>=3.9.0",
+    "pycognito>=2023.5.0"
+  ],
+  "config_flow": true
+}

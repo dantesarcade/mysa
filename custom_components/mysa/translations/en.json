@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Mysa Thermostat Setup",
+        "description": "Enter your Mysa credentials to connect."
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to Mysa API.",
+      "invalid_auth": "Invalid email or password."
+    },
+    "abort": {
+      "already_configured": "Mysa thermostat is already configured."
+    }
+  },
+  "entity": {
+    "climate": {
+      "mysa": {
+        "name": "Mysa Thermostat",
+        "state": {
+          "heat": "Heating",
+          "off": "Off"
+        }
+      }
+    }
+  }
+}
